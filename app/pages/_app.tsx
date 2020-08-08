@@ -1,4 +1,6 @@
 import { AppProps, ErrorComponent } from "blitz"
+import { CSSReset, ThemeProvider } from "@chakra-ui/core"
+import "app/styles/index.css"
 import { ErrorBoundary } from "react-error-boundary"
 import { queryCache } from "react-query"
 import LoginForm from "app/auth/components/LoginForm"
@@ -13,7 +15,10 @@ export default function App({ Component, pageProps }: AppProps) {
         queryCache.resetErrorBoundaries()
       }}
     >
-      <Component {...pageProps} />
+      <ThemeProvider>
+        <CSSReset />
+        <Component {...pageProps} />
+      </ThemeProvider>
     </ErrorBoundary>
   )
 }

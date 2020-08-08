@@ -2,7 +2,7 @@
 
 This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
 
-# test-auth
+# blitz-playground
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ You can read more about it on the [CLI Overview](https://blitzjs.com/docs/cli-ov
 Here is the structure of your app.
 
 ```
-test-auth
+blitz-playground
 ├── app
 │   ├── components
 │   │   └── ErrorBoundary.tsx

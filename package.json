@@ -1,5 +1,5 @@
 {
-  "name": "test-auth",
+  "name": "blitz-playground",
   "version": "1.0.0",
   "scripts": {
     "start": "blitz start",
@@ -27,15 +27,21 @@
     ]
   },
   "dependencies": {
+    "@chakra-ui/core": "0.8.0",
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27",
     "@prisma/cli": "2.4.1",
     "@prisma/client": "2.4.1",
+    "@tailwindcss/ui": "0.5.0",
     "blitz": "0.17.1-canary.2",
+    "emotion-theming": "10.0.27",
+    "final-form": "4.20.1",
     "react": "0.0.0-experimental-33c3af284",
     "react-dom": "0.0.0-experimental-33c3af284",
     "react-error-boundary": "2.3.1",
-    "final-form": "4.20.1",
     "react-final-form": "6.5.1",
     "secure-password": "4.0.0",
+    "tailwindcss": "1",
     "zod": "1.10.2"
   },
   "devDependencies": {
@@ -52,6 +58,7 @@
     "eslint-plugin-react-hooks": "3.0.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
+    "postcss-preset-env": "6.7.0",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1",
     "typescript": "3.9.7"
